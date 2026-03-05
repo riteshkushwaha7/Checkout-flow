@@ -1,6 +1,8 @@
+'use client';
+
 import { CartData } from '@/types/cart';
 
-export async function getCartData(): Promise<CartData> {
+export async function fetchCartData(): Promise<CartData> {
   const res = await fetch('/api/cart', {
     cache: 'no-store',
   });
