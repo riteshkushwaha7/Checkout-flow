@@ -7,6 +7,10 @@ export interface ShippingAddress {
   state: string;
 }
 
+export interface ShippingAddressWithId extends ShippingAddress {
+  id: string;
+}
+
 export interface CheckoutState {
   cartData: import('./cart').CartData | null;
   shippingAddress: ShippingAddress | null;
