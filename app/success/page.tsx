@@ -51,6 +51,12 @@ export default function SuccessPage() {
           {/* Actions */}
           <div className="space-y-3">
             <Link
+              href="https://www.facebook.com/"
+              className="block w-full py-3 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors duration-200"
+            >
+              Facebook
+            </Link>
+            <Link
               href="/cart"
               className="block w-full py-3 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-lg transition-colors duration-200"
             >
@@ -62,6 +68,7 @@ export default function SuccessPage() {
             >
               Back to Home
             </Link>
+            
           </div>
           
           {/* Support Info */}
